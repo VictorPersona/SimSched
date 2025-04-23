@@ -1,6 +1,6 @@
-import matlplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
-def plot_resource_usage(cpu_usages,mem_usages,lables):
+def plot_resource_usage(cpu_usages,mem_usages,labels):
     x = range(len(labels))
     plt.figure(figsize=(10,5))
 
